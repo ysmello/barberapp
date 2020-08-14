@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import SignInBackgroundImg from '../../assets/sign-in-background.png';
-
 export const Container = styled.div`
   height: 100vh;
 

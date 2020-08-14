@@ -41,7 +41,7 @@ const SignIn: React.FC = () => {
     <Container>
       <Content>
         <img src={logoImg} alt="GoBarber" />
-        <Form onSubmit={handleSubmit}>
+        <Form ref={formRef} onSubmit={handleSubmit}>
           <h1>Faça seu logon</h1>
 
           <Input name="email" placeholder="E-mail" icon={FiMail} />
